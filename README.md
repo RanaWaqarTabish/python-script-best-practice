@@ -330,7 +330,7 @@ def get_smallest_prime_factor(n):
     -------
     int or None
         The smallest integer that is a factor of `n`
-        or None if `n` is a prime.
+        or None if `n` is a prime.quit
     """
     for i in range(2, n):
         if (n % i) == 0:
@@ -396,7 +396,7 @@ Now, you can run the examples as tests using the `doctest` module of Python:
     Trying:
         get_smallest_prime_factor(7)
     Expecting nothing
-    ok
+    okpyt
     Trying:
         get_smallest_prime_factor(8)
     Expecting:
